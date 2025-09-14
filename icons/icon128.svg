@@ -1,0 +1,71 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285F4;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#1976D2;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#1565C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="highlight" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.3);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0);stop-opacity:0" />
+    </radialGradient>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <dropShadow dx="4" dy="4" stdDeviation="4" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Background circle with shadow and gradient -->
+  <circle cx="64" cy="64" r="58" fill="url(#grad3)" filter="url(#shadow2)"/>
+  <circle cx="64" cy="64" r="58" fill="url(#highlight)"/>
+  <circle cx="64" cy="64" r="58" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="3"/>
+  
+  <!-- Main document -->
+  <rect x="32" y="26" width="48" height="64" rx="4" fill="white" opacity="0.95"/>
+  <rect x="32" y="90" width="48" height="8" rx="4" fill="white" opacity="0.95"/>
+  
+  <!-- Document header -->
+  <rect x="32" y="26" width="48" height="16" rx="4" fill="url(#grad3)" opacity="0.15"/>
+  
+  <!-- Text lines representing article content -->
+  <rect x="38" y="32" width="32" height="3" rx="1.5" fill="#1565C0" opacity="0.9"/>
+  <rect x="38" y="37" width="28" height="3" rx="1.5" fill="#1565C0" opacity="0.7"/>
+  
+  <!-- Body text lines -->
+  <rect x="38" y="46" width="36" height="2.5" rx="1.25" fill="#1976D2" opacity="0.8"/>
+  <rect x="38" y="50" width="30" height="2.5" rx="1.25" fill="#1976D2" opacity="0.8"/>
+  <rect x="38" y="54" width="34" height="2.5" rx="1.25" fill="#1976D2" opacity="0.8"/>
+  <rect x="38" y="58" width="28" height="2.5" rx="1.25" fill="#1976D2" opacity="0.8"/>
+  <rect x="38" y="62" width="32" height="2.5" rx="1.25" fill="#1976D2" opacity="0.8"/>
+  <rect x="38" y="66" width="26" height="2.5" rx="1.25" fill="#1976D2" opacity="0.8"/>
+  <rect x="38" y="70" width="30" height="2.5" rx="1.25" fill="#1976D2" opacity="0.8"/>
+  <rect x="38" y="74" width="24" height="2.5" rx="1.25" fill="#1976D2" opacity="0.8"/>
+  <rect x="38" y="78" width="28" height="2.5" rx="1.25" fill="#1976D2" opacity="0.8"/>
+  <rect x="38" y="82" width="22" height="2.5" rx="1.25" fill="#1976D2" opacity="0.8"/>
+  
+  <!-- AI magic effects -->
+  <!-- Large central AI spark -->
+  <circle cx="86" cy="42" r="8" fill="#FFD700" opacity="0.9"/>
+  <polygon points="86,34 87.5,39 92.5,39 88.5,42 90,47 86,44 82,47 83.5,42 79.5,39 84.5,39" fill="white"/>
+  
+  <!-- Medium spark -->
+  <circle cx="96" cy="64" r="6" fill="#FF6B35" opacity="0.85"/>
+  <polygon points="96,58.5 97,62 100.5,62 97.8,64.5 98.8,68 96,66 93.2,68 94.2,64.5 91.5,62 95,62" fill="white"/>
+  
+  <!-- Small spark -->
+  <circle cx="90" cy="84" r="5" fill="#4CAF50" opacity="0.8"/>
+  <polygon points="90,79.8 90.8,82.4 93.4,82.4 91.3,84.2 92.1,86.8 90,85.2 87.9,86.8 88.7,84.2 86.6,82.4 89.2,82.4" fill="white"/>
+  
+  <!-- Additional small sparkles -->
+  <circle cx="100" cy="38" r="3" fill="#E91E63" opacity="0.7"/>
+  <polygon points="100,35.5 100.5,37 102,37 101,38 101.5,39.5 100,38.7 98.5,39.5 99,38 98,37 99.5,37" fill="white"/>
+  
+  <circle cx="84" cy="98" r="3.5" fill="#9C27B0" opacity="0.75"/>
+  <polygon points="84,95 84.6,96.8 86.4,96.8 85,98 85.6,99.8 84,98.9 82.4,99.8 83,98 81.6,96.8 83.4,96.8" fill="white"/>
+  
+  <!-- Subtle reflection on document -->
+  <rect x="32" y="26" width="24" height="64" rx="4" fill="url(#highlight)" opacity="0.3"/>
+  
+  <!-- Subtle border enhancement -->
+  <circle cx="64" cy="64" r="55" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+</svg>
